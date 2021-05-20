@@ -1,0 +1,26 @@
+.explore {
+    padding: 100px 0;
+    background-image: linear-gradient(to right bottom, rgba(20,30,48,0.4), rgba(36,59,85,0.4)), url("../images/back.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &__heading {
+        padding-left: 40px;
+        font-size: 48px;
+        text-decoration: underline;
+        color: #FFF;
+        letter-spacing: 2.4px;
+        text-transform: capitalize;
+    }
+
+    .book_a_tour {
+        margin-right: 50px;
+        padding: 14px 60px;
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Page Title -->
+    <title>Travel Agency | Landing Page</title>
+
+    <!-- Icon -->
+    <link rel="icon" href="./assets/images/logo.png" type="image/gif" sizes="16x16">
+
+    <!-- Bootstrap CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+
+    <!-- Font Awesome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Raleway:wght@300&family=Sriracha&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Rancho&display=swap" rel="stylesheet">
+
+    <!-- External CSS File -->
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+</head>
+
+<body>
+    <main id="landing__page">
+        <header id="header">
+            <section class="logo">
+                <div class="logo__container">
+                    <img src="./assets/images/logo.png" alt="logo" class="logo__image">
+                </div>
+            </section>
+
+            <section class="hero">
+                <div class="hero__container">
+                    <div class="hero__text">
+                        <h2 class="hero__sec-heading">
+                            <p>The best trip around</p><span>Udaipur</span>
+                            <p>begin with us.</p>
+                        </h2>
+                        <h3 class="hero__ter-heading">
+                            Let's make your tour unforgettable!
+                        </h3>
+                    </div>
+                    <div class="hero__form">
+                        <div class="form">
+                            <div class="form__heading">
+                                <h4>Let's get started</h4>
+                            </div>
+                            <div class="form__group">
+                                <label for="fullname">Full Name</label>
+                                <input type="text" pattern="[a-zA-Z\s]{3,15}" placeholder="Full Name" id="fullname" required>
+                            </div>
+                            <div class="form__group">
+                                <label for="mobile">Mobile Number</label>
+                                <input type="text" pattern="[6789][0-9]{9}" placeholder="Mobile Number" id="mobile" required>
+                            </div>
+                            <div class="form__group">
+                                <label for="email">Email</label>
+                                <input type="text" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email" id="email" required>
+                            </div>
+                            <div class="form__group">
+                                <label for="startingdate">Preffered Starting Date</label>
+                                <input type="date" placeholder="Preffered Starting Date" id="startingdate" required>
+                            </div>
+                            <div class="form__group">
+                                <button id="submit">Get started</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+
+        <section id="advantages" class="advantages">
+            <div class="advantages__container">
+                <div class="advantages__heading">
+                    <h2>Our Advantages</h2>
+                </div>
+                <div class="advantages__desc">
+                    <p>We work to make sure your every tour remains memorable throughout the life. We are Udaipur based company and currently servicable in Udaipur and whole Rajasthan. If not the best, we are one of the top travel agent in Rajasthan. Always happy to serve you!</p>
+                </div>
+                <div class="advantages__cards cards">
+                    <div class="cards__container">
+                        <div class="cards__icon">
+                            <i class="fas fa-wallet"></i>
+                        </div>
+                        <div class="cards__content">
+                            <div class="cards__heading">
+                                Budget Friendly
+                            </div>
+                            <div class="cards__desc">
+                                We take care of your budget and plan affordbale and amazing trips for you.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards__container">
+                        <div class="cards__icon">
+                            <i class="fas fa-thumbs-up"></i>
+                        </div>
+                        <div class="cards__content">
+                            <div class="cards__heading">
+                                Easy Booking
+                            </div>
+                            <div class="cards__desc">
+                                We are just a call away if you want to book tour around this beautiful city.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards__container">
+                        <div class="cards__icon">
+                            <i class="fas fa-fire"></i>
+                        </div>
+                        <div class="cards__content">
+                            <div class="cards__heading">
+                                Most Popular
+                            </div>
+                            <div class="cards__desc">
+                                If not THE best, we are among the top travel planners in this city with experience.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cards__container">
+                        <div class="cards__icon">
+                            <i class="fas fa-map-marked"></i>
+                        </div>
+                        <div class="cards__content">
+                            <div class="cards__heading">
+                                Find Your Way
+                            </div>
+                            <div class="cards__desc">
+                                Customized plans according to your need and that's why we say "find your own way".
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="tours" id="tours">
+            <div class="tours__container">
+                <div class="tours__heading">
+                    <h1>Our Most Popular Tours</h1>
+                </div>
+                <div class="tour_cards">
+                    <div class="tour_cards__container container__1">
+                        <div class="tour_cards__heading">
+                            <h1>The Landmark Tour</h1>
+                        </div>
+                        <div class="tour_cards__desc">
+                            <p>Living the life of Wanderlust in the India's most beatiful city.</p>
+                        </div>
+                        <div class="tour_cards__details">
+                            <p class="details__desc"><i class="far fa-calendar-alt"></i> December 2021</p>
+                            <p class="details__desc"><i class="fas fa-street-view"></i> 20 People</p>
+                        </div>
+                        <div class="tour_cards__list">
+                            <ul>
+                                <li>4 Days tour</li>
+                                <li>10 places to visit</li>
+                                <li>Sleep in cozy hotels</li>
+                                <li>3 tour guide</li>
+                                <li>Difficulty: Easy</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tour_cards__container container__2">
+                        <div class="tour_cards__heading">
+                            <h1>Road Less Traveled</h1>
+                        </div>
+                        <div class="tour_cards__desc">
+                            <p>Trip to the heart and soul of this city to make sure no stone left unturn.</p>
+                        </div>
+                        <div class="tour_cards__details">
+                            <p class="details__desc"><i class="far fa-calendar-alt"></i> October 2021</p>
+                            <p class="details__desc"><i class="fas fa-street-view"></i> 12 People</p>
+                        </div>
+                        <div class="tour_cards__list">
+                            <ul>
+                                <li>3 Days tour</li>
+                                <li>7 places to visit</li>
+                                <li>Sleep in cozy hotels</li>
+                                <li>1 tour guide</li>
+                                <li>Difficulty: Medium</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="tour_cards__container container__3">
+                        <div class="tour_cards__heading">
+                            <h1>City Sightseeing</h1>
+                        </div>
+                        <div class="tour_cards__desc">
+                            <p>Explore all areas and every corner of the city of lakes.</p>
+                        </div>
+                        <div class="tour_cards__details">
+                            <p class="details__desc"><i class="far fa-calendar-alt"></i> June 2021</p>
+                            <p class="details__desc"><i class="fas fa-street-view"></i> 32 People</p>
+                        </div>
+                        <div class="tour_cards__list">
+                            <ul>
+                                <li>7 Days tour</li>
+                                <li>25+ places to visit</li>
+                                <li>Sleep in cozy hotels</li>
+                                <li>2 tour guide</li>
+                                <li>Difficulty: Medium</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="tours__button">
+                    <a href="#" class="book_a_tour button button__animated">Book A Tour!</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="gallery" id="gallery">
+            <div class="gallery__container">
+                <div class="gallery__heading">
+                    <h1>Image Gallery</h1>
+                </div>
+                <div class="gallery__images">
+                    <div class="gallery__column column__1">
+                        <div class="image image__1">
+                            <img src="./assets/images/udaipurOne.jpg" alt="Udaipur One">
+                            <div class="image__layover">
+                                <p><i class="far fa-heart"></i> <span>102</span></p>
+                                <p><i class="far fa-comment-alt"></i> <span>24</span></p>
+                            </div>
+                        </div>
+                        <div class="image image__2">
+                            <img src="./assets/images/udaipurTwo.jpg" alt="Udaipur Two">
+                            <div class="image__layover">
+                                <p><i class="far fa-heart"></i> <span>102</span></p>
+                                <p><i class="far fa-comment-alt"></i> <span>24</span></p>
+                            </div>
+                        </div>
+                        <div class="image image__3">
+                            <img src="./assets/images/udaipurFour.jpg" alt="Udaipur Three">
+                            <div class="image__layover">
+                                <p><i class="far fa-heart"></i> <span>102</span></p>
+                                <p><i class="far fa-comment-alt"></i> <span>24</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__column column__2">
+                        <div class="image image__4">
+                            <img src="./assets/images/udaipurVerticalOne.jpg" alt="Udaipur Four">
+                            <div class="image__layover">
+                                <p><i class="far fa-heart"></i> <span>102</span></p>
+                                <p><i class="far fa-comment-alt"></i> <span>24</span></p>
+                            </div>
+                        </div>
+                        <div class="image image__5">
+                            <img src="./assets/images/udaipurVerticalTwo.jpg" alt="Udaipur Five">
+                            <div class="image__layover">
+                                <p><i class="far fa-heart"></i> <span>102</span></p>
+                                <p><i class="far fa-comment-alt"></i> <span>24</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__column column__3">
+                        <div class="image image__6">
+                            <img src="./assets/images/udaipurSix.jpg" alt="Udaipur Six">
+                            <div class="image__layover">
+                                <p><i class="far fa-heart"></i> <span>102</span></p>
+                                <p><i class="far fa-comment-alt"></i> <span>24</span></p>
+                            </div>
+                        </div>
+                        <div class="image image__7">
+                            <img src="./assets/images/udaipurSeven.jpg" alt="Udaipur Seven">
+                            <div class="image__layover">
+                                <p><i class="far fa-heart"></i> <span>102</span></p>
+                                <p><i class="far fa-comment-alt"></i> <span>24</span></p>
+                            </div>
+                        </div>
+                        <div class="image image__8">
+                            <img src="./assets/images/udaipurEight.jpg" alt="Udaipur Eight">
+                            <div class="image__layover">
+                                <p><i class="far fa-heart"></i> <span>102</span></p>
+                                <p><i class="far fa-comment-alt"></i> <span>24</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="gallery__column column__4">
+                        <div class="image image__9">
+                            <img src="./assets/images/udaipurVerticalThree.jpg" alt="Udaipur Nine">
+                            <div class="image__layover">
+                                <p><i class="far fa-heart"></i> <span>102</span></p>
+                                <p><i class="far fa-comment-alt"></i> <span>24</span></p>
+                            </div>
+                        </div>
+                        <div class="image image__10">
+                            <img src="./assets/images/udaipurVerticalFour.jpg" alt="Udaipur Ten">
+                            <div class="image__layover">
+                                <p><i class="far fa-heart"></i> <span>102</span></p>
+                                <p><i class="far fa-comment-alt"></i> <span>24</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="explore" class="explore">
+            <div class="explore__heading">
+                <h2><em>Explore the distant corners</em></h2>
+            </div>
+            <div class="explore__button">
+                <a href="#" class="book_a_tour button button__animated">Book A Tour!</a>
+            </div>
+        </section>
+
+        <section class="testimonial" id="testimonial">
+            <div class="testimonial__heading">
+                <h2>Testimonails</h2>
+                <p><em>Few Words From Previous Travellers</em></p>
+            </div>
+            <div id="client-testimonial-carousel" class="carousel slide" data-ride="carousel" style="height:250px;">
+                <div class="carousel-inner" role="listbox">
+                    <div class="carousel-item active text-center p-4">
+                        <div class="carousel-item__container">
+                            <div class="carousel-item__image">
+                                <img src="./assets/images/footer_logo.png" alt="Reviewer">
+                                <div class="image__name">
+                                    <p>Nikhil Dev</p>
+                                </div>
+                            </div>
+                            <blockquote class="blockquote text-center">
+                                <p class="mb-0"><i class="fa fa-quote-left"></i> Most memorable tour of my life, this city 
+                                    is so awesome and thanks to Travel Agent for this trip more amazing for me and my family.
+                                    Definitely recommanded.
+                                </p>
+                                <footer class="blockquote-footer">Nikhil Dev <cite
+                                        title="Source Title">Delhi</cite>
+                                </footer>
+                                <!-- Client review stars -->
+                                <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                                <p class="client-review-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star-half-alt"></i>
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center p-4">
+                        <div class="carousel-item__container">
+                            <div class="carousel-item__image">
+                                <img src="./assets/images/footer_logo.png" alt="Reviewer">
+                                <div class="image__name">
+                                    <p>Nidhi Patel</p>
+                                </div>
+                            </div>
+                            <blockquote class="blockquote text-center">
+                                <p class="mb-0"><i class="fa fa-quote-left"></i> This trip is mindbowing, beautiful views, awesome
+                                    lakes, tasty food, cozy hotel rooms, comfortable bus, and what not.. Thanks to Travel Agent for
+                                    this unforgettable memory..
+                                </p>
+                                <footer class="blockquote-footer">Nidhi Patel <cite
+                                        title="Source Title">Surat</cite>
+                                </footer>
+                                <!-- Client review stars -->
+                                <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                                <p class="client-review-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
+                    <div class="carousel-item text-center p-4">
+                        <div class="carousel-item__container">
+                            <div class="carousel-item__image">
+                                <img src="./assets/images/footer_logo.png" alt="Reviewer">
+                                <div class="image__name">
+                                    <p>Kumar Laxman</p>
+                                </div>
+                            </div>
+                            <blockquote class="blockquote text-center">
+                                <p class="mb-0"><i class="fa fa-quote-left"></i> Woww! This was hell of journey, this city
+                                    is my first love from hereon and it will be going to remain my travel spot for every year,
+                                    and Travel Agent too!!
+                                </p>
+                                <footer class="blockquote-footer">Kumar Laxman <cite
+                                        title="Source Title">Bengaluru</cite>
+                                </footer>
+                                <!-- Client review stars -->
+                                <!-- "fas fa-star" for a full star, "far fa-star" for an empty star, "far fa-star-half-alt" for a half star. -->
+                                <p class="client-review-stars">
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                    <i class="fas fa-star"></i>
+                                </p>
+                            </blockquote>
+                        </div>
+                    </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#client-testimonial-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#client-testimonial-carousel" data-slide-to="1"></li>
+                    <li data-target="#client-testimonial-carousel" data-slide-to="2"></li>
+                </ol>
+            </div>
+        </section>
+
+        <footer class="footer" id="footer">
+            <div class="footer__container">
+                <div class="footer__company">
+                    <h4>Travel Agent</h4>
+                    <p>Welcome to <span><em>Travel Agent</em></span>. We work to make sure your every tour remains
+                        memorable throughout the life. We are Udaipur based company and currently servicable in Udaipur
+                        and whole Rajasthan. If not the best, we are one of the top travel agent in Rajasthan. Always
+                        happy to serve you!</p>
+                </div>
+                <div class="footer__contact">
+                    <p><i class="far fa-map"></i> <span><em>Location: </em></span>Shop No. 254, near City Palace,
+                        Udaipur (Raj)</p>
+                    <p><i class="fas fa-envelope-open-text"></i> <span><em>Mail us at: </em></span>
+                        udaipur.tours@travel.com</p>
+                    <p><i class="fas fa-mobile-alt"></i> <span><em>Call us on: </em></span> (+91) 70234-71744</p>
+                    <p><i class="fab fa-whatsapp"></i> <span><em>Connect on Whatsapp: </em></span> (+91) 9772187144</p>
+                </div>
+            </div>
+            <div class="footer__row">
+                <div class="footer__copyright">
+                    <p>Copyright &copy; Bulit by <a href="#" class="footer__link">Shubham Soni</a></p>
+                </div>
+                <div class="footer__social">
+                    <p><a href="#"><i class="fab fa-facebook-f"></i></a></p>
+                    <p><a href="#"><i class="fab fa-instagram"></i></a></p>
+                    <p><a href="#"><i class="fab fa-twitter"></i></a></p>
+                    <p><a href="#"><i class="fab fa-linkedin-in"></i></a></p>
+                    <p><a href="#"><i class="fab fa-google-plus-g"></i></a></p>
+                </div>
+            </div>
+        </footer>
+    </main>
+
+    <!-- jQuery CDN -->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Bootstrap CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js"
+        integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF"
+        crossorigin="anonymous"></script>
+
+    <!-- External JS File -->
+    <script src="./assets/js/main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,104 @@
+.footer {
+    background: #141e30;
+    color: #FFF;
+    padding: 75px 0px 18px;
+
+    &__container {
+        padding: 0 40px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        align-content: center;
+    }
+
+    &__company {
+        flex-basis: 50%;
+        font-size: 14px;
+        letter-spacing: 1.2px;
+        line-height: 1.5;
+
+        h4 {
+            text-align: center;
+            font-size: 32px;
+            letter-spacing: 6px;
+            margin-bottom: 16px;
+        }
+
+        p {
+            width: 85%;
+            margin: 0 auto;
+            text-align: center;
+        }
+    }
+
+    &__contact { 
+        p {
+            display: flex;
+            align-items: center;
+            margin-bottom: 16px;
+            font-size: 16px;
+
+            i {
+                font-size: 28px;
+                margin-right: 10px;
+                color: #2196F3;
+            }
+
+            span {
+                letter-spacing: 1px;
+                margin-right: 8px;
+                text-decoration: underline;
+                font-size: 18px;
+                color: #2196F3;
+            }
+        }
+    }
+
+    &__row {
+        display: flex;
+        justify-content: space-between;
+        margin: 25px 40px;
+        border-top: 2px solid #CCC;
+        padding-top: 20px;
+        align-items: center;
+    }
+
+    &__social {
+        display: flex;
+
+        p {
+            margin: 0 8px;
+            width: 52px;
+            text-align: center;
+            border: 1px solid transparent;
+            box-shadow: 0px 12px 6px 6px rgba(0,0,0,0.4);
+            border-radius: 50%;
+            padding: 13px 0px;
+            transition: all 0.4s;
+
+            a {
+                color: #FFF;
+            }
+        }
+
+        p:hover {
+            background-color: #FFF;
+
+            a {
+                color: #141E30;
+            }
+        }
+    }
+
+    &__copyright {
+        font-size: 18px;
+
+        p {
+            a {
+                color: #2196F3;
+                letter-spacing: 4px;
+                margin-left: 18px;
+            }
+        }
+    }
+}
