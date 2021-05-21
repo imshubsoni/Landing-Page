@@ -197,6 +197,21 @@
     .carousel-item__image {
         flex-basis: 36%;
     }
+
+    .carousel-inner {
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    a.right.carousel-control {
+        top: 45%;
+        right: 2%;
+    }
+    
+    a.left.carousel-control {
+        top: 45%;
+        left: 2%;
+    }        
 }
 
 @media (max-width: 755px) {
@@ -215,6 +230,10 @@
 
     .carousel-item__image {
         flex-basis: 44%;
+    }
+
+    .carousel {
+        height: 280px !important;
     }
 }
 
@@ -365,6 +384,11 @@
 
     .carousel {
         height: 375px !important;
+    }
+
+    .carousel-inner {
+        width: 95%;
+        margin: 0 auto;
     }
 }
 

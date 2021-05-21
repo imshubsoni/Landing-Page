@@ -1,4 +1,4 @@
-var submitButton = document.getElementById("submit");
+let submitButton = document.getElementById("submit");
 
 submitButton.addEventListener("click", function() {
     let validityScore = 4;

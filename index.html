@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Description & keywords -->
 
     <!-- Page Title -->
     <title>Travel Agency | Landing Page</title>
@@ -59,23 +60,19 @@
                                 <h4>Let's get started</h4>
                             </div>
                             <div class="form__group">
-                                <label for="fullname">Full Name</label>
                                 <input type="text" pattern="[a-zA-Z\s]{3,15}" placeholder="Full Name" id="fullname" required>
                             </div>
                             <div class="form__group">
-                                <label for="mobile">Mobile Number</label>
                                 <input type="text" pattern="[6789][0-9]{9}" placeholder="Mobile Number" id="mobile" required>
                             </div>
                             <div class="form__group">
-                                <label for="email">Email</label>
                                 <input type="text" pattern="[A-Za-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" placeholder="Email" id="email" required>
                             </div>
                             <div class="form__group">
-                                <label for="startingdate">Preffered Starting Date</label>
                                 <input type="date" placeholder="Preffered Starting Date" id="startingdate" required>
                             </div>
                             <div class="form__group">
-                                <button id="submit">Get started</button>
+                                <button id="submit">Let's Talk</button>
                             </div>
                         </div>
                     </div>
@@ -156,14 +153,14 @@
                 <div class="tour_cards">
                     <div class="tour_cards__container container__1">
                         <div class="tour_cards__heading">
-                            <h1>The Landmark Tour</h1>
+                            <h3>The Landmark Tour</h3>
                         </div>
                         <div class="tour_cards__desc">
                             <p>Living the life of Wanderlust in the India's most beatiful city.</p>
                         </div>
                         <div class="tour_cards__details">
-                            <p class="details__desc"><i class="far fa-calendar-alt"></i> December 2021</p>
-                            <p class="details__desc"><i class="fas fa-street-view"></i> 20 People</p>
+                            <div class="details__desc"><i class="far fa-calendar-alt"></i> <div><p> Best time to travel</p> Oct - Dec</div></div>
+                            <div class="details__desc"><i class="fas fa-street-view"></i> 20 People</div>
                         </div>
                         <div class="tour_cards__list">
                             <ul>
@@ -177,14 +174,14 @@
                     </div>
                     <div class="tour_cards__container container__2">
                         <div class="tour_cards__heading">
-                            <h1>Road Less Traveled</h1>
+                            <h3>Road Less Traveled</h3>
                         </div>
                         <div class="tour_cards__desc">
                             <p>Trip to the heart and soul of this city to make sure no stone left unturn.</p>
                         </div>
                         <div class="tour_cards__details">
-                            <p class="details__desc"><i class="far fa-calendar-alt"></i> October 2021</p>
-                            <p class="details__desc"><i class="fas fa-street-view"></i> 12 People</p>
+                            <div class="details__desc"><i class="far fa-calendar-alt"></i> <div><p> Best time to travel</p>June - July</div></div>
+                            <div class="details__desc"><i class="fas fa-street-view"></i> 20 People</div>
                         </div>
                         <div class="tour_cards__list">
                             <ul>
@@ -198,14 +195,14 @@
                     </div>
                     <div class="tour_cards__container container__3">
                         <div class="tour_cards__heading">
-                            <h1>City Sightseeing</h1>
+                            <h3>City Sightseeing</h3>
                         </div>
                         <div class="tour_cards__desc">
                             <p>Explore all areas and every corner of the city of lakes.</p>
                         </div>
                         <div class="tour_cards__details">
-                            <p class="details__desc"><i class="far fa-calendar-alt"></i> June 2021</p>
-                            <p class="details__desc"><i class="fas fa-street-view"></i> 32 People</p>
+                            <div class="details__desc"><i class="far fa-calendar-alt"></i> <div><p> Best time to travel</p> Feb - Mar</div></div>
+                            <div class="details__desc"><i class="fas fa-street-view"></i> 20 People</div>
                         </div>
                         <div class="tour_cards__list">
                             <ul>
@@ -227,7 +224,7 @@
         <section class="gallery" id="gallery">
             <div class="gallery__container">
                 <div class="gallery__heading">
-                    <h1>Image Gallery</h1>
+                    <h3>Image Gallery</h3>
                 </div>
                 <div class="gallery__images">
                     <div class="gallery__column column__1">
@@ -413,11 +410,14 @@
                         </div>
                     </div>
                 </div>
-                <ol class="carousel-indicators">
+                <!-- <ol class="carousel-indicators">
                     <li data-target="#client-testimonial-carousel" data-slide-to="0" class="active"></li>
                     <li data-target="#client-testimonial-carousel" data-slide-to="1"></li>
                     <li data-target="#client-testimonial-carousel" data-slide-to="2"></li>
-                </ol>
+                </ol> -->
+                <!-- Carousel Buttons Next/Prev -->
+                <a data-slide="prev" href="#client-testimonial-carousel" class="left carousel-control"><i class="fas fa-chevron-left"></i></a>
+                <a data-slide="next" href="#client-testimonial-carousel" class="right carousel-control"><i class="fas fa-chevron-right"></i></a>
             </div>
         </section>
 
